@@ -1,0 +1,14 @@
+{
+  "name": "gemini-proxy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "http-proxy-middleware": "^3.0.0",
+    "morgan": "^1.10.0"
+  }
+}
